@@ -27,8 +27,7 @@ export default function Home() {
             <div className="home__text">
                 <h2>Hello, I am Nikola</h2>
                 <p> Frontend web developer who previously worked in the public sector. 
-                    Love to develop and work on interesting projects in various technologies like 
-                    HTML, CSS, Javascript, React, Angular. </p>
+                    Love to develop and work on interesting projects in various technologies.</p>
                     <p>In my current company, I also write code in Python programming 
                     language for web purpose, API calls, models in database using SQLAlchemy.</p>
                     <p>Team player, love to work in a team and learn new stuff 
