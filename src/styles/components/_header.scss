@@ -33,3 +33,16 @@
 .activeRoute {
     color: #ff6347 !important;
   }
+
+  @media(max-width: 450px) {
+    .header {
+        padding: 0 20px;
+       
+    
+        &__nav {
+            
+    
+            a {
+                margin-left: 20px;
+            }}}
+  }
