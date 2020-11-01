@@ -7,10 +7,10 @@ export default function Header() {
         <div className="header">
             <div><NavLink to="/" ><img src={Logo} alt="logo"/></NavLink></div>
             <div className="header__nav">
-                <NavLink to="/" exact={true} activeClassName='activeRoute' >Home</NavLink>
-                <NavLink to="/projects" activeClassName="activeRoute">Projects</NavLink>
+                <NavLink to="/portfolio/" exact={true} activeClassName='activeRoute' >Home</NavLink>
+                <NavLink to="/portfolio/projects" activeClassName="activeRoute">Projects</NavLink>
                 {/* <NavLink to="/contact" activeClassName="activeRoute">Contact</NavLink> */}
-                <NavLink to="/socials" activeClassName="activeRoute">Socials</NavLink>
+                <NavLink to="/portfolio/socials" activeClassName="activeRoute">Socials</NavLink>
             </div>
 
         </div>
